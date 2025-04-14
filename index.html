@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Okpechi - Designer & Dreamer</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Daniel Okpechi's Portfolio">
+    <meta name="keywords" content="Daniel Okpechi's Portfolio">
+    <meta name="author" content="Prince">
+    <meta property="og:title" content="Daniel Okpechi's Portfolio">
+    <meta property="og:description" content="Daniel Okpechi's Portfolio">
+    <meta property="og:image" content="https://otiktpyazqotihijbwhm.supabase.co/storage/v1/object/public/images/bda02949-ecc5-40f3-bd89-04b1e7ada814-logo.jpg">
+    <meta property="og:url" content="https://daniel-okpechi.vercel.app">
+    <meta name="twitter:card" content="Daniel Okpechi's Portfolio">
+    <meta name="twitter:creator" content="@onrooleyy">
+    <meta name="twitter:title" content="Daniel Okpechi's Portfolio">
+    <meta name="twitter:description" content="Daniel Okpechi's Portfolio">
+    <meta name="twitter:image" content="https://otiktpyazqotihijbwhm.supabase.co/storage/v1/object/public/images/bda02949-ecc5-40f3-bd89-04b1e7ada814-logo.jpg">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="imgs/logo.jpg" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="nav-links">
+                    <a href="index.html" class="nav-icon"><i class="fas fa-home"></i></a>
+                    <a href="mailto:okpechi.chinedum@gmail.com" class="nav-icon"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.behance.net/danielokpechi" class="nav-icon"><i class="fa-brands fa-behance"></i></a>
+                    <a href="https://www.linkedin.com/in/daniel-okpechi/" class="nav-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="nav-actions">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="#contact" class="cta-button">Contact Me</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="profile">
+                <div class="profile-image">
+                    <img src="imgs/daniel.png" alt="Mia Carter">
+                </div>
+                <h1 class="profile-title">
+                    Hey, I'm Daniel Okpechi<br>
+                    Dreamer & Designer
+                </h1>
+                <p class="profile-description">
+                    I'm a highly passionate designer with a proven track record of delivering exceptional results. If you have an exciting project that demands top-notch skills and creativity, I'm your go-to professional.
+                </p>
+                <div class="profile-actions">
+                    <button class="template-button">About Me</button>
+                    <button class="available-button" style="text-align: center;">
+                        <span class="available-dot"></span>
+                        Available for new project
+                    </button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="portfolio-marquee">
+        <div class="marquee-track">
+            <!-- Portfolio items - first set -->
+            <div class="portfolio-item">
+                <img src="imgs/project1.png" alt="Minimalist UI design" class="portfolio-image">
+            </div>
+            <div class="portfolio-item">
+                <img src="imgs/project2.png" alt="Nature website design" class="portfolio-image">
+            </div>
+            <div class="portfolio-item">
+                <img src="imgs/project3.png" alt="Finance app UI" class="portfolio-image">
+            </div>
+            <div class="portfolio-item">
+                <img src="imgs/project4.png" alt="E-commerce design" class="portfolio-image">
+            </div>
+            
+            <!-- Duplicate items to create seamless loop -->
+            <div class="portfolio-item">
+                <img src="imgs/project1.png" alt="Minimalist UI design" class="portfolio-image">
+            </div>
+            <div class="portfolio-item">
+                <img src="imgs/project2.png" alt="Nature website design" class="portfolio-image">
+            </div>
+            <div class="portfolio-item">
+                <img src="imgs/project3.png" alt="Finance app UI" class="portfolio-image">
+            </div>
+            <div class="portfolio-item">
+                <img src="imgs/project4.png" alt="E-commerce design" class="portfolio-image">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section Component -->
+    <section class="about-section">
+        <div class="about-content">
+            <h2 class="about-heading">About Me</h2>
+            <p class="about-text">
+                I'm a passionate UI/UX designer with a strong focus on creating intuitive, user-centered digital experiences. With a background in both design and user psychology, I bridge the gap between form and function to craft interfaces that not only look great but also solve real problems. From wireframes and prototypes to high-fidelity designs, I thrive in collaborative environments where creativity meets strategy. I'm always exploring new trends, tools, and technologies to elevate the user experience and bring thoughtful, impactful design solutions to life.<span class="heart-icon">❤️</span>.
+            </p>
+        </div>
+        <div class="about-image"></div>
+    </section>
+    
+    <br>
+
+    <!-- Skillset Section Component -->
+    <section class="skillset-section">
+        <!-- Left Column - Introduction -->
+        <div class="skillset-intro">
+            <h2 class="skillset-title">Skillset</h2>
+            <p class="skillset-description">
+                I am the perfect person to hire when it comes to a full fledged project. 
+                Whatever your needs are, I can pretty much take on any challenge.
+            </p>
+        </div>
+
+        <!-- Right Column - Skills Grid -->
+        <div class="skills-grid">
+            <!-- Product Design -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i data-lucide="layout-dashboard" size="32"></i>
+                </div>
+                <h3 class="skill-title">Product Design</h3>
+                <p class="skill-description">
+                    Actively designing MVPs, high fidelity wireframes, templates.
+                </p>
+            </div>
+
+            <!-- Visual Design -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i data-lucide="palette" size="32"></i>
+                </div>
+                <h3 class="skill-title">Visual Design</h3>
+                <p class="skill-description">
+                    My experience at Sterling Bank plc has helped me learn to develop the eye for design. 
+                    Colours, typography, layout and the whole package.
+                </p>
+            </div>
+
+            <!-- User Research -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i data-lucide="camera" size="32"></i>
+                </div>
+                <h3 class="skill-title">User Research</h3>
+                <p class="skill-description">
+                    Skilled in gathering qualitative and quantitative data for understanding the needs 
+                    and behaviors of users to create meaningful and user-centered designs.
+                </p>
+            </div>
+
+            <!-- Frontend Design -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i data-lucide="code-xml" size="32"></i>
+                </div>
+                <h3 class="skill-title">Frontend Design</h3>
+                <p class="skill-description">
+                    Good understanding and use of Frontend programming languages for both web and mobile.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section class="work-experience">
+        <h2 class="section-heading">Work Experience</h2>
+        
+        <!-- Experience Item 1 -->
+        <div class="experience-item">
+            <div class="time-period">2024 - Present</div>
+            <div class="job-title">Lead Designer at Total Energies</div>
+            <div class="company-logo logo-aura">
+                <img src="imgs/total.jpg" alt="Aura logo">
+            </div>
+            <p class="job-description">
+                I have experience working as both a product designer and software developer, and I have also provided occasional assistance to the IST team (Information System and Telecoms) at TotalEnergies.
+            </p>
+        </div>
+        
+        <!-- Experience Item 2 -->
+        <div class="experience-item">
+            <div class="time-period">2022 - 2024</div>
+            <div class="job-title">Intern Designer at Sterling Bank</div>
+            <div class="company-logo logo-apple">
+                <img src="imgs/sterling2.png" alt="Apple logo">
+            </div>
+            <p class="job-description">
+                I had the opportunity to work as a Product Design Intern at Sterling Bank, where I was involved in creating innovative digital solutions to enhance customer experiences.
+            </p>
+        </div>
+        
+        <!-- Experience Item 3 -->
+        <div class="experience-item">
+            <div class="time-period">2020 - 2022</div>
+            <div class="job-title">Product Designer at Babcock University Computer Club</div>
+            <div class="company-logo logo-shopify">
+                <img src="imgs/bucc.jpg" alt="Shopify logo">
+            </div>
+            <p class="job-description">
+                I’ve worked on the Babcock University computer club's app, an app for information dissemination within the university
+            </p>
+        </div>
+    
+<a href="https://docs.google.com/document/d/1XjgJGGCfvZQEg9oWXoAUNJFDPoeHKcOqUwzm4ovN6Zw/edit?pli=1&tab=t.0" target="_blank" style="text-align: center;"><button class="button"> View my CV</button></a>
+    </section>
+
+    <!-- Project Showcase Section -->
+    <section class="project-showcase">
+        <h2 class="showcase-heading">Here's What I've Been Up To</h2>
+        
+        <div class="projects-container">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="imgs/project1.png" alt="Aero Landing page design">
+                </div>
+                <h3 class="project-title">Apple Vision</h3>
+                <p class="project-description">
+                    This project focuses on the design and development of a comprehensive solution platform.
+                </p>
+                <a href="#" class="view-project">View Project</a>
+            </div>
+            
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="imgs/project2.png" alt="Dreamland App Concept">
+                </div>
+                <h3 class="project-title">BloodLink App</h3>
+                <p class="project-description">
+                    A dreamy mobile app prototype designed for mindfulness and relaxation.
+                </p>
+                <a href="#" class="view-project">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="imgs/project3.png" alt="Dreamland App Concept">
+                </div>
+                <h3 class="project-title">NFT Marketplace</h3>
+                <p class="project-description">
+                    A dreamy mobile app prototype designed for mindfulness and relaxation.
+                </p>
+                <a href="#" class="view-project">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="imgs/project5.png" alt="Dreamland App Concept">
+                </div>
+                <h3 class="project-title">CarLand</h3>
+                <p class="project-description">
+                    A dreamy mobile app prototype designed for mindfulness and relaxation.
+                </p>
+                <a href="#" class="view-project">View Project</a>
+            </div>
+        </div>
+        <br>
+        <div style="text-align: center"><a href="https://www.behance.net/danielokpechi" target="_blank"><button class="button"> View all on Behance</button></a></div>
+    </section>
+
+ <!-- Testimonials Section -->
+ <section class="testimonials-section">
+    <h1 style="color: var(--green-text);">Testimonials</h1>
+    <br>
+    <div class="testimonials-grid">
+        <!-- Testimonial Card 1 -->
+        <div class="testimonial-card">
+            <h3 class="testimonial-title">Amazing Results with Daniel's Premium Web Design Services</h3>
+            <p class="testimonial-text">
+                Daniel is a top-notch web designer who created a stunning website for my business. He was attentive to my needs and provided excellent customer service throughout the entire process. I highly recommend his services.
+            </p>
+            <div class="client-info">
+                <div class="client-avatar">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Matthew Smith">
+                </div>
+                <div class="client-details">
+                    <span class="client-name">MATTHEW SMITH</span>
+                    <span class="client-title">CEO</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Testimonial Card 2 -->
+        <div class="testimonial-card">
+            <h3 class="testimonial-title">Expert Framer and SEO Services: Excellent Work, Great Results.</h3>
+            <p class="testimonial-text">
+                Working with Daniel on my website redesign was a fantastic experience. He was able to take my vision and turn it into a beautiful and functional website. His attention to detail and creative approach is unmatched. I couldn't be happier with the end result.
+            </p>
+            <div class="client-info">
+                <div class="client-avatar">
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Josh Kim">
+                </div>
+                <div class="client-details">
+                    <span class="client-name">JOSH KIM</span>
+                    <span class="client-title">CEO</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Testimonial Card 3 -->
+        <div class="testimonial-card">
+            <h3 class="testimonial-title">Professional, Collaborative Web Design Experience with Daniel.</h3>
+            <p class="testimonial-text">
+                I had the pleasure of working with Daniel on a website development project and was blown away by his expertise and professionalism. He made the process seamless and delivered a website that exceeded our expectations. I highly recommend Arik for all your web development needs.
+            </p>
+            <div class="client-info">
+                <div class="client-avatar">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Andrea Lee">
+                </div>
+                <div class="client-details">
+                    <span class="client-name">ANDREA LEE</span>
+                    <span class="client-title">CEO</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Testimonial Card 4 -->
+        <div class="testimonial-card">
+            <h3 class="testimonial-title">Expertise in Web Design: Second to None with Daniel.</h3>
+            <p class="testimonial-text">
+                Daniel is not only an exceptional web designer, but also a pleasure to work with. He took the time to understand my business and its unique needs, and created a website that perfectly represents my brand. I highly recommend Arik's services to anyone looking for a top-quality web designer.
+            </p>
+            <div class="client-info">
+                <div class="client-avatar">
+                    <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Andreas Thompson">
+                </div>
+                <div class="client-details">
+                    <span class="client-name">ANDREAS THOMPSON</span>
+                    <span class="client-title">Designer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+    <h2 class="contact-heading">Get in touch</h2>
+    <p class="contact-intro">
+        I'm always interested in exploring new opportunities, collaborating, or exchanging ideas with like-minded individuals. Feel free to book a call or email me if you'd like to see my portfolio deck or to discuss a potential project.
+    </p>
+    
+    <!-- Success message (hidden by default) -->
+    <div class="success-message" id="successMessage">
+        Your message has been sent successfully!
+    </div>
+    
+    <!-- Replace YOUR_FORM_ID with your actual Formspark form ID -->
+    <form class="contact-form" action="https://submit-form.com/uwoVDRJSy" method="POST">
+        <!-- Redirect URL (hidden field) -->
+        <input type="hidden" name="_redirect" value="https://daniel-okpechi.vercel.app/confirmation.html" />
+        
+        <!-- Name input -->
+        <div class="form-group">
+            <input type="text" name="name" class="form-input" placeholder="Full Name" required>
+        </div>
+        
+        <!-- Email input -->
+        <div class="form-group">
+            <input type="email" name="email" class="form-input" placeholder="Email Address" required>
+        </div>
+        
+        <!-- Message textarea -->
+        <div class="form-group-full">
+            <textarea name="message" class="form-textarea" placeholder="Write your Message" required></textarea>
+        </div>
+        
+        <!-- Submit button -->
+        <button type="submit" class="form-button">Send Message</button>
+    </form>
+</section>
+
+ <!-- Back to top button -->
+ <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <span class="sr-only">Back to top</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/>
+    </svg>
+</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
