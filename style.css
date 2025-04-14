@@ -232,6 +232,9 @@ main {
         width: 100%;
         max-width: 300px;
     }
+    .available-button{
+        display: none;
+    }
 }
 
 @media (max-width: 576px) {
